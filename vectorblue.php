@@ -1,4 +1,6 @@
-torBlue skin
+<?php
+/**
+ * VectorBlue skin
  *
  * @file
  * @ingroup Skins
