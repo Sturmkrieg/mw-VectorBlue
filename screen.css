@@ -2,12 +2,16 @@ body {
     background: #E0ECF8;
 }
 
-div#content, div#mw-head {
+div#mw-head {
+    background: #E0ECF8;
+}
+
+div#content {
     background: #EFF8FB;
     border: 1px solid #A9D0F5;
 }
 
-#ca-talk span a, #ca-edit span a, li.collapsible span a, li.icon span a {
+#ca-view span a, #ca-nstab-main span a, li.new a, #tab-main span a, a-talk span a, #ca-edit span a, li.collapsible span a, li.icon span a {
     background-color: #E0F2F7;
     border-top: 1px solid #A9D0F5;
     border-left: 1px solid #A9D0F5;
@@ -15,7 +19,7 @@ div#content, div#mw-head {
 }
 
 li.selected span a {
-    background-color: #EFF8FB;
+    background-color: #EFF8FB !important;
     border-top: 1px solid #A9D0F5;
     border-left: 1px solid #A9D0F5;
     border-right: 1px solid #A9D0F5;
